@@ -1,0 +1,14 @@
+/* mainHeader Start  */
+.mainHeader {
+    &__container {
+        max-width: 1220px;
+        padding: 0 10px;
+        margin: 0 auto;
+        outline: 1px solid black;
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+/* mainHeader End */
