@@ -1,0 +1,23 @@
+$mainGray: #868585;
+$mainWhite: #ffffff;
+$mainBlack: #303030;
+$hoverColor: #a9a32a;
+$maxWidth: 1220px;
+
+@mixin borderblack {
+  outline: 1px solid black;
+}
+
+@mixin borderblue {
+  outline: 1px solid blue;
+}
+
+@mixin bordergreen {
+  outline: 3px dashed green;
+}
+
+@mixin container {
+  max-width: $maxWidth;
+  margin: 0 auto;
+  padding: 0 10px;
+}

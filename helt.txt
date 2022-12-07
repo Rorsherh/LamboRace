@@ -1,0 +1,14 @@
+для работы в visual studio code должен быть установлен плагин Path Autocomplete
+
+далее в поиске F1 набираем open settings.json открываем файл settings.json и прописываем
+следующию настроку
+
+-----------------------------------------------
+
+"path-autocomplete.pathMappings": {
+    "@img": "${folder}/src/img",
+    "@scss": "${folder}/src/scss",
+    "@js": "${folder}/src/js"
+  },
+  
+------------------------------------------------
